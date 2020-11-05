@@ -1,0 +1,22 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: Bio
+    url: false
+    entries:
+      - title: I'm presently completing my undergraduate degree at the university of Woolongong. I work on artificial intelligence.
+        url: false
+
+  - title: Posts
+    post_list: true
+    url: false
+    entries: false
+
+  - title: Published papers
+    entries:
+        - title: Nothing to see here yet.
+
+  - title: Unpublished papers
+    entries:
+        - title: Nothing to see here yet. 

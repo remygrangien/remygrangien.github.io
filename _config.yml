@@ -1,62 +1,26 @@
-# Built with Jekyll 3.6.0
+title: Remy Grangien # name of the site
+author: Remy Grangien # name of site's author
+email: remygrangien@protonmail.com # email of site's author
+url: https://remygrangien.github.io # root address of the site
+description: > # description of the site (multiple lines allowed)
+  Homepage of Remy Grangien
 
-# Setup
-title:               Remy Grangien
-tagline:             'Homepage'
-description:         ''
-url:                 'http://remygrangien.github.io'
-baseurl:             ''
+permalink: /:slug.html
 
-# About/contact
-author:
-  name:              Remy Grangien
-  url:
-  email:             remygrangien@protonmail.com
+favicon: "./logo.png" # relative path to site's favicon
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
-# Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
-# Permalinks
-permalink: pretty
-permalink: /:title/
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
-# Set encoding to UTF-8
-encoding: utf-8
+sass:
+  style: :compressed
 
-# Collections for texts
-collections:
-  texts:
-    output: true
-
-# Markdown specs
-markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Exclusions from the final site
-exclude:
-  - optional
-  - vendor
-  - ed..gemspec
-  - Gemfile
-  - Gemfile.lock
-  - backstop_data
-  - backstop.json
-
-# Theme
-# (Used for local or custom-server deployments)
-# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
-# See https://jekyllrb.com/docs/themes/
-# theme: "ed."
-
-# Remote Theme
-# (Used only for GitHub deployments)
-# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-remote_theme: minicomp/ed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
