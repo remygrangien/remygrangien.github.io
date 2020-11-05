@@ -1,63 +1,62 @@
-# Site settings
-title_left    : "Remy Grangien"
-title_right   : "" # default: ""
-description   : "Homepage of Remy Grangien."
-keywords      : "Remy, Grangien"
-url           : https://remygrangien.com # site url
-baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "" # image uri like logo/cover image for site seo
+# Built with Jekyll 3.6.0
 
-google_analytics  :
-twitter_username  : ""
-comments_enabled  : false # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : ""
-postshare_enabled : false
+# Setup
+title:               Remy Grangien
+tagline:             'Homepage'
+description:         ''
+url:                 'http://remygrangien.github.io'
+baseurl:             ''
 
-# Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
-
-source      : ./
-destination : ./_site
-
-# Sass configuration
-sass:
-  sass_dir  : assets/scss
-  style     : compressed # expanded
-
-# Author settings
+# About/contact
 author:
-  name     : "Remy Grangien"
+  name:              Remy Grangien
+  url:
+  email:             remygrangien@protonmail.com
 
-plugins:
-  - jekyll-sitemap
-  - bourbon
-  - jekyll-paginate
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme:
 
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
+# Permalinks
+permalink: pretty
+permalink: /:title/
 
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Exclusions from the final site
 exclude:
-  - "gulp"
-  - "node_modules"
-  - "bower"
-  - "bower_components"
-  - "config.rb"
-  - "src"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - ".rvmrc"
-  - ".rbenv-version"
-  - "package.json"
-  - "gulpfile.js"
-  - "README.md"
-  - "Rakefile"
-  - "changelog.md"
-  - "script"
-  - "vendor"
-  - "thinkspace.gemspec"
+  - optional
+  - vendor
+  - ed..gemspec
+  - Gemfile
+  - Gemfile.lock
+  - backstop_data
+  - backstop.json
+
+# Theme
+# (Used for local or custom-server deployments)
+# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
+# See https://jekyllrb.com/docs/themes/
+# theme: "ed."
+
+# Remote Theme
+# (Used only for GitHub deployments)
+# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
+remote_theme: minicomp/ed
