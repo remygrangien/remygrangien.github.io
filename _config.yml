@@ -2,8 +2,7 @@ title: Remy Grangien # name of the site
 author: Remy Grangien # name of site's author
 email: remygrangien@protonmail.com # email of site's author
 url: https://remygrangien.github.io # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Homepage of Remy Grangien
+description: I am currently completing my undergraduate degree at the university of Woolongong with hopes of working on artificial general intelligence.
 
 permalink: /:slug.html
 
@@ -16,7 +15,7 @@ theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true # show blog description in home page
 
 sass:
   style: :compressed

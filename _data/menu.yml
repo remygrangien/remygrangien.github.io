@@ -5,7 +5,7 @@ entries:
   - title: Bio
     url: false
     entries:
-      - title: I am currently completing my undergraduate degree at the university of Woolongong. My primary area of study is artificial intelligence.
+      - title: I am currently completing my undergraduate degree at the university of Woolongong with hopes of working on artificial general intelligence.
         url: false
 
   - title: Posts
@@ -13,14 +13,14 @@ entries:
     url: false
     entries: false
 
-  - title: Published papers
-    url: false
-    entries:
-        - title: Nothing to see yet.
-          url: false
-
   - title: Unpublished papers
     url: false
     entries:
         - title: Nothing to see yet.
         url: false
+
+  - title: Published papers
+    url: false
+    entries:
+        - title: Nothing to see yet.
+          url: false
