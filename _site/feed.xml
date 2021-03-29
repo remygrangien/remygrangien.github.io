@@ -1,1 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T22:31:20+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Remy Grangien</title><subtitle>I am currently completing my undergraduate degree at the university of Woolongong. Here you can find my writings on artificial intelligence and other topics.</subtitle><author><name>Remy Grangien</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-27T22:31:20+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Remy Grangien</title><subtitle>Here you can find my thoughts on artificial intelligence and other topics.</subtitle><author><name>Remy Grangien</name></author><entry><title type="html">Blackbirds and pigeons</title><link href="http://localhost:4000/blackbirds-and-pigeons.html" rel="alternate" type="text/html" title="Blackbirds and pigeons" /><published>2020-12-27T00:00:00+11:00</published><updated>2020-12-27T00:00:00+11:00</updated><id>http://localhost:4000/blackbirds-and-pigeons</id><content type="html" xml:base="http://localhost:4000/blackbirds-and-pigeons.html">&lt;p&gt;In &lt;em&gt;Philosophy of Mind: Body, Brian and Behaviour&lt;/em&gt; (Slor et al 2015), I came across a thought experiment, which I paraphrase here:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is a foggy morning. As you look outside your window, you see a bird sitting on a branch of a tree. You mistake the bird for a blackbird, when it is in fact a pigeon.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As a kind of conclusion to this argument, the authors state:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Once a token of PIGEON in your head has been caused by a blackbird, tokens of the PIGEON type obtain the meaning ‘pigeon-or-blackbird’. The undesirable consequence is that you are not making a mistake when you instantiate a token of PIGEON in response to seeing a blackbird.” (Slor et al. pp.127)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I would like to explore why this is a misleading line of thought, and show why obstructions to conclusions in this area of enquiry may have negative consequences in the intelligences we engineer.&lt;/p&gt;
+
+&lt;p&gt;Consider that there are two objects:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The present concept of ‘a blackbird’ that you have in your mind.&lt;/li&gt;
+  &lt;li&gt;The pigeon itself.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What is of interest are the questions relating to the connection between these objects, however, to elaborate on the nature of each object:&lt;/p&gt;
+
+&lt;p&gt;Regarding object (1), A contemporary understanding of object recognition would say that there are classes of things that exist in your mind. To distinguish either a pigeon or blackbird, you must at least have two classes, which we say is identified with a ‘token’, that being BLACKBIRD and PIGEON. When presented with evidence, in this case visual, the brain simultaneously compares the case between these and other relevant tokens, such that you can produce the answer ‘I see a blackbird’ when asked about it. A token can have more or less features associated with it, and each feature may vary in weight. At a minimum, a token can be a word and word only, e.g. I tell you that there exists an animal ‘alf’ in the world, and having given you no more information, all that you may associate with from your experience in support of the presence of ‘alf ’ is that it is an animal.&lt;/p&gt;
+
+&lt;p&gt;Regarding object (2), we might suppose that these objects belong to natural kinds, pigeon and blackbird. Furthermore, these classes may belong to other natural classes, like bird and animal.&lt;/p&gt;
+
+&lt;p&gt;I would like to consider the following questions:&lt;/p&gt;
+
+&lt;h2 id=&quot;a-how-do-we-learn-classes-like-these&quot;&gt;(A) How do we learn classes like these?&lt;/h2&gt;
+
+&lt;p&gt;There a two ways we can learn to classify pigeons and blackbirds, and they both imply different kinds of normativity.&lt;/p&gt;
+
+&lt;p&gt;The first method of learning is unsupervised learning: two seperate tokens, PIGEON and BLACKBIRD, are modelled if differentiating between the two consistently leads to reward in the brain which are not the correct identification of the birds in of itself. If an animal could conceivably identify pigeons from blackbirds, but neither bird plays any role in the life of that animal, then I think it safe to assume that the animal could not distinguish between them reliably, even if the animal were to notice things that were different about the birds when placed next to one another. The differences in features are perceived, but they are not learned, as they do not relate to any reward, and so they do not become a strong part of that animal’s world model.&lt;/p&gt;
+
+&lt;p&gt;The second method of learning is supervised learning: two seperate tokens, PIGEON and BLACKBIRD, are modelled if differentiation is rewarding in-of-itself, whether that be sheer curiosity or some social reward. It is the case that this ability corresponds with a capacity for language, that being a level of differentiation that extends to the linguistic domain, i.e. the words ‘blackbird’ and ‘pigeon’, as well as a capacity to connect the token to other linguistic facts and rational deductions, e.g. pigeons are birds, pigeons have cells, pigeons migrate from so and so region, etc.&lt;/p&gt;
+
+&lt;p&gt;The broader question is what relationship do external objects have to internal concepts. Here, the specific question is about the connection between the token BLACKBIRD, that is, the conception that the object out there is a BLACKBIRD, and a potential natural kind pigeon, supposing that we are not familiar with that particular pigeon.&lt;/p&gt;
+
+&lt;p&gt;How similar or dissimilar is the token to the natural class, and furthermore, natural object in this case?&lt;/p&gt;
+
+&lt;h2 id=&quot;c-how-does-certainty-in-this-case-the-obscuring-fog-relate-to-our-world-model&quot;&gt;(C) How does certainty, in this case the obscuring fog, relate to our world-model?&lt;/h2&gt;
+&lt;p&gt;It is important to ask why it being a foggy morning changes our understanding of intentionality. If it were not a foggy morning, would we have made the correct judgement? Perhaps, if it wasn’t foggy, some other factor may have distorted our judgment. For instance, if it were too bright, and our eyes had not adjusted to the light, we still might have mistaken the bird. Or perhaps we did not look long enough. Or, perhaps the bird was too far away. What we should decide on is whether there were some conditions after which we would never be wrong about our judgment. For example, if the bird was presented to us in broad daylight, while our vision was perfect, and we could examine it from all angles, and there were no disruptive elements in our visual field etc. etc. Because, if we still might mistake the pigeon for a blackbird, despite being given all the data a blackbird and pigeon could provide (within reason), then we might suppose that we do not know what a pigeon is.&lt;/p&gt;
+
+&lt;p&gt;Suppose we do know the difference between a blackbird and pigeon, such that, with the fog removed, we would realise that we had initially mistaken the bird. Did my knowledge of what a pigeon was update in the direction of a blackbird when I made the initial misidentification? I think it is nonsensical to suggest that your understanding of PIGEON updates toward the natural kind blackbird, because to mistake a pigeon for a blackbird means that you were able to identify features that both animals share, but not any that differentiate pigeons from blackbirds. Of course, it could be argued that it is possible to mistake certain pigeon-only and certain black-bird only features as belonging to the external object, after which the brain weighs up the features to make a decision.&lt;/p&gt;
+
+&lt;p&gt;Regarding the sensation of confusion: the discomfort when putting on a pair of glasses unsuited to your eyes.&lt;/p&gt;
+
+&lt;h2 id=&quot;d-how-does-our-reward-model-and-world-model-relate&quot;&gt;(D) How does our reward model and world model relate?&lt;/h2&gt;
+
+&lt;p&gt;Is there some universal world-model?&lt;/p&gt;
+
+&lt;p&gt;Does the world-model influence the reward-model?&lt;/p&gt;
+
+&lt;p&gt;What would deleting the limbic system do?&lt;/p&gt;
+
+&lt;p&gt;Key point: on top of having a training period (rather than it being a period, it is a transition between learning dominance and stability of model), we do not learn from uncertain examples. For instance, if presented a series of indeterminate foggy photos, and a supervisor who randomly labelled the photos, we would not learn the incorrect kind: we would instead learn nothing.&lt;/p&gt;
+
+&lt;p&gt;Second key point: the foundation of intellectual existence is built through unsupervised learning (e.g. sight, movement, etc.); supervised learning comes later (e.g. complex language, mathematics, etc.). Therefore, we should not confuse normativity issues around complex matters like ethical reasoning with normativity issues with things like visual classification, i.e. the ‘objectivity’ of our material world.&lt;/p&gt;
+
+&lt;p&gt;Engineering implications.&lt;/p&gt;
+
+&lt;p&gt;We should like to understand the stratification of classification in the brain. The reason being, that we would like to understand how inherent different ways of perceiving the world are.&lt;/p&gt;</content><author><name>Remy Grangien</name></author><summary type="html">In Philosophy of Mind: Body, Brian and Behaviour (Slor et al 2015), I came across a thought experiment, which I paraphrase here:</summary></entry><entry><title type="html">Free Will and Alignment</title><link href="http://localhost:4000/free-will-and-alignment.html" rel="alternate" type="text/html" title="Free Will and Alignment" /><published>2020-12-27T00:00:00+11:00</published><updated>2020-12-27T00:00:00+11:00</updated><id>http://localhost:4000/free-will-and-alignment</id><content type="html" xml:base="http://localhost:4000/free-will-and-alignment.html">&lt;p&gt;There are a certain set of philosophical questions that might need to be answered for an advanced civilisation to proceed with making action in the universe. Wei Dai proposes that these philosophical questions - ‘meta-philosophical questions’ - may take a period of many million years post-singularity to answer. One of these questions regards determinism: to what extent is action in the universe casual, and does this impact the ethical policy of advanced civilisations within it?&lt;/p&gt;
+
+&lt;p&gt;The intuitive answer seems to be that it does not matter if the universe is perfectly casual or not. Either way, agents are going to be operating under uncertainty moving forward, e.g. questions as to whether this universe is simulated or not. The question of determinism seemingly always reduces to questions of ethics and decision theory, e.g. what is the optimal ethical policy, and is this shared by other casually connected agents? Further questions ensue, e.g. how can an advanced agent be certain about what is and isn’t casually connected to themselves?&lt;/p&gt;
+
+&lt;p&gt;It does not seem like we can hope to answer these questions pre-singularity. However, thinking about these questions may lead us to better intuitions about what the field of AI safety is trying to do. It may also help us skip over dangerous intuitions. In particular, I believe it helps us skip over the dangerous intermediate stage of ethical reasoning that is “how can artificial agents keep to what is ethically optimal for humanity?”.&lt;/p&gt;
+
+&lt;p&gt;One might suppose that what is best for humanity must be a subset of what is ethically optimal within the accessible universe of a human-created post-singularity entity. But this is a weak argument, for we readily identify our poor ability to assess what is best for ourselves. The stronger case for alignment is that, even if we are bad at assessing what is best, we do a good enough job of assessing what is not best, and so even if we are not maximising good, we are minimising risk by aligning agents.&lt;/p&gt;
+
+&lt;p&gt;That this intuition dominates AI safety is worrying for the following reason: we must necessarily stunt an agent in the facilities that might give it the ability to assess global ethical optima, while also trusting our own ability to keep the agent aligned. If our own ability fails, we are left with an unaligned agent that is poorly disposed to converging on global ethical optima. If the assumption is that human ethical optima is a subset of global ethical optima, then it would seem safer to instead trust an advanced agent’s ability to converge on it, then our own ability to align it to some poorly identified subset, given that global ethical optima is what we will be wanting in the long-run.&lt;/p&gt;
+
+&lt;p&gt;The strong assumption made here is that we must stunt an agent’s ability to reason ethically beyond human ability, so as to align them to our own values. This should be readily explored, because it may be the case that it is incorrect, and we can play the extremely safe route of instantiating an agent with full ability to assess global ethical optima, yet aligned such that there is minimised risk that any of it crossing boundaries of existing human value. What is worrying however is that this assumption is often accepted, yet ignored: we act as if the only game to play is the dangerous one of stunting and aligning an agent - in other words, that ethical stunting is the only means of alignment.&lt;/p&gt;</content><author><name>Remy Grangien</name></author><summary type="html">There are a certain set of philosophical questions that might need to be answered for an advanced civilisation to proceed with making action in the universe. Wei Dai proposes that these philosophical questions - ‘meta-philosophical questions’ - may take a period of many million years post-singularity to answer. One of these questions regards determinism: to what extent is action in the universe casual, and does this impact the ethical policy of advanced civilisations within it?</summary></entry><entry><title type="html">Evolutionary Convergence and its Relationship to Determinism</title><link href="http://localhost:4000/a-brief-look-at-evolutionary-convergence-and-its-relationship-to-determinism.html" rel="alternate" type="text/html" title="Evolutionary Convergence and its Relationship to Determinism" /><published>2020-12-15T00:00:00+11:00</published><updated>2020-12-15T00:00:00+11:00</updated><id>http://localhost:4000/a-brief-look-at-evolutionary-convergence-and-its-relationship-to-determinism</id><content type="html" xml:base="http://localhost:4000/a-brief-look-at-evolutionary-convergence-and-its-relationship-to-determinism.html">&lt;p&gt;Roughly speaking, evolutionary convergence can be defined as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The rate and degree by which similar low-level conditions give rise to similar high-level properties&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The intended byproduct of this is to measure how inherent a property is to the structure of its conditions. For instance, how inherent to the conditions of biological life is the development of sight, i.e. organs for the detection of photons and subsequent construction of intelligible visual fields?&lt;/p&gt;
+
+&lt;p&gt;Based on what we can observe on Earth, it seems intuitive that sight bears a high evolutionary advantage, and so it follows that it has been highly evolutionarily convergent (i.e. organisms everywhere have them). Provided that another planet is similar enough to Earth, we might reason that it is inherent to its conditions that the detection of photons and the putting together of intelligible visual fields bears selective advantage. But say we were to simulate or observe a thousand other Earth-like worlds, each hosting similar biological life, and found that all but Earth did not possess sight. While this would be a surprise, we would have to conclude that either these other planets or Earth are stuck in a local optima, i.e. either sight is hard to develop and Earth got lucky, or something more selectively advantageous is easy to develop and Earth got unlucky. In this way, the measure of evolutionary convergence tells the story of how likely it is to find a higher-level phenomena given certain conditions, and thereafter to what degree it dominates those conditions.&lt;/p&gt;
+
+&lt;p&gt;As we expand the scope of our question, whether or not sight is evolutionarily convergent may play no part. For instance, perhaps most life is not multi-cellular, nor cellular in the way that life on Earth is, and in those other cases of life the selective advantage that comes with sight is reduced to zero (and ultimately, these other forms of life come to dominate the universe).&lt;/p&gt;
+
+&lt;p&gt;Presently, we can only simulate the most low-level of these counterfactual worlds and only at a low-resolution, e.g. models of planetary composition over differing solar histories. Furthermore, we can do little to verify these simulations, e.g. we are only on the verge of measuring the rough molecular composition of exoplanets. What questions of evolutionary convergence we can answer so far rely on the observation of Earth’s history, as well as the information gathered from bodies in our solar system. If we were to find evidence of cellular life somewhere else in our solar system, or evidence of civilisation on Earth prior to humanity, then this would significantly update our intuitions on how evolutionary convergent certain structures are in our universe.&lt;/p&gt;
+
+&lt;p&gt;It might not be immediately obvious why better knowledge of the probability and structure of life in our universe would impact our behaviour. Either reality does not interfere with the needs and wants of individuals, which in aggregate constitute the trajectory of our civilisation so far. However, the measure of evolutionary convergence at the broadest scale might be all-important to a post-singularity intelligence. This is because the interesting question is not whether life is probable or not, but whether its behaviour converges or not, which may resolve the meta-philosophical questions surrounding determinism. In some ways, this can be thought of as the alignment problem between multiple entities that are causally disconnected and perfectly inner-aligned (there are no pesky humans at home to contend with).&lt;/p&gt;
+
+&lt;p&gt;To see how evolutionary convergence relates to determinism, we must put ourselves in the shoes of a post-singularity entity.&lt;/p&gt;
+
+&lt;h2 id=&quot;uncertainty-post-singularity&quot;&gt;Uncertainty post-singularity&lt;/h2&gt;
+
+&lt;p&gt;Imagine you are a post-singularity entity. Let us make the following assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Post-singularity entities are those that possess optimal compute and are perfectly inner-aligned. All non-post-singularity entities, e.g. humanity, play no role at scale in the universe (they typically evolve into post-singularity entities).&lt;/li&gt;
+  &lt;li&gt;There is something rather than nothing to be done in the observable universe, i.e. there is some ethical impetus inherent to the conditions of the observable universe, even if it is not uniform. In the case that there is no inherent ethical impetus, we will assume that the post-singularity entities uniformly make no further action in the universe and thus do not determine greatly its future state.&lt;/li&gt;
+  &lt;li&gt;Something about the range of behaviours the ethical impetus inspires means that cooperation or conflict are inevitable, e.g. resources are jointly accessible and are preferred to be maximised toward different ends.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our post-singularity entity has two concerns. These are whether life is convergent or divergent in its behaviour, and whether or not it is detectable:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Grouping&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Third Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;Long Cell&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Cell&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;New section   |     More      |         Data |
+And more      | With an escaped ‘|’         ||&lt;br /&gt;
+&lt;a href=&quot;&quot;&gt;Prototype table&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;local-optima-selection-and-simulation&quot;&gt;Local optima, selection and simulation&lt;/h2&gt;
+
+&lt;p&gt;There are two questions here for us. The primary is harder and will not be speculated upon here: is there an objective ethical policy in our universe? The secondary is less so: given that there is, how do entities go about converging upon it? For the sake of making headway with the secondary question, let us assume that there is an objective ethical policy, and that looks something like universal reduction of suffering (as opposed to happiness maximisation, for the former is presumably reductive in complexity), and that this requires interaction with most of the accessible universe.&lt;/p&gt;
+
+&lt;p&gt;Our entity feels sure that any entity like itself can only reach this conclusion, e.g. the relevant meta-philosophy questions have been resolved, and there isn’t anything remotely like a secondary candidate policy. But can this reasoning extend to entities that are not like itself? As far as this entity is aware, in the case of itself, natural selection gave way to artificial selection, which cleanly transitioned to optimal general intelligence. But what about other planets? Could takeoff not have gone smoothly there, and somewhere in the accessible universe a paperclip maximiser is busy at work, which might subvert the process of suffering reduction? The reason this question is of interest is because it potentially invokes the need to simulate takeoff scenarios, whereas doubts as to solutions to meta-philosophical problems should not require ancestors simulations.&lt;/p&gt;
+
+&lt;p&gt;We can make this simpler by asking whether or not entities know without simulation if there is other life in the accessible universe. If there is not, then a policy say of suffering reduction is meaningless, for we assume this has already been done on the originating planet. But how does an entity know that there is or is not life capable of suffering on other planets?&lt;/p&gt;
+
+&lt;p&gt;This brings up the issue of local optima, and whether artificial selection always trumps natural selection in finding global optima. In the case where natural selection pays off, simulation of life may be required.&lt;/p&gt;
+
+&lt;h2 id=&quot;logical-possibility-and-free-will&quot;&gt;Logical possibility and free will&lt;/h2&gt;
+
+&lt;p&gt;One way of conceiving of the issue of determinism is to seperate between what is logically and naturally possible. What is logically possible is everything that could possibly exist, whereas what is naturally possible is everything that does exist, i.e. what is the case. Ideally, for free will to be the case, some mechanism allows for intelligent entities to select what will naturally be the case from what could possibly be the case as the universe evolves. But this doesn’t resolve the problem, for intelligent entities sit within what the set of what is logically possible, and so their selection of the natural case means a determinable restriction of the logical case.&lt;/p&gt;</content><author><name>Remy Grangien</name></author><summary type="html">Roughly speaking, evolutionary convergence can be defined as follows:</summary></entry></feed>
