@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cognition as Self-modifiability 
+title: Cognition as Self-Modifiability 
 ---
 
 1  
@@ -24,7 +24,6 @@ These measures of intelligence give us a rather nice lens with which to view the
 At the beginning of intelligence, we get task-specific learning algorithms, as found in animals like worms and reptiles (some might even like to quantify certain capacities of single cells in this manner). At some point, there appears something like a common-cortical algorithm that can generally model the world, and so be used to better plan for rewards, thereby flexibly performing tasks. This is the sort of learning apparatus which we have observed to readily take over input from different sensory modalities and yet still successfully model the world. Finally, generality is closely followed by the capacity to self-modify: the model of the world extends to the mind itself, and so the agent can plan its behavior around the common-cortical algorithm and other structures of the brain, so as to maximize its performance, modify its goals, or otherwise make up for its structural deficiencies.  
 
 As we have already seen, the capacity to self-modify can be broken down into two distinct sub-measures: the quality of the self-model, and the actual degree of modification that can be performed on the agent. Neither of these sub-measures seem to have advanced much from primates to humans, and so it is tempting to suggest that these measures are really just an unavoidable feature of generality (specifically, self-modifiability equals the combination of generality, some threshold of computational capacity and the right learning material). But while it might be correct to say that self-modification cannot occur without generality (for how can an agent model itself without a capacity to model the world?), I think it is incorrect to say that generality must include the ability to self-model or modify. Moreover, this is a dangerous thing to assume from an existential risk perspective. It will be perfectly possible to create artificial agents with high-generality, yet that are incapable of modelling or modifying themselves (in fact this is an explicit goal of many AI safety approaches), and this will dramatically change the potential behavior of that agent.  
-
 
 
 
