@@ -3,7 +3,6 @@ author:
   name: Remy Grangien
   email: remy.grangien@protonmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Thoughts on AI saftey and philosophy.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
