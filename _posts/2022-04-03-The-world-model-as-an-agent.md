@@ -9,7 +9,7 @@ This line of thinking can be traced back most obviously to Aristotle, who identi
 
 To build intuitions that counter this Humean claim, it is worthwhile to briefly define the notions ‘agent’, ‘world-model’, ‘reward-model’, etc., because each concept readily goes under different names in different circles.
 
-1. Terminology
+1\. Terminology
 
 I take the cleanest first approximation of what agent means to be that which acts coherently under a utility function. It is a clean approximation conceptually, but in practice leaves plenty unclear. Is the human best understand as a single agent? Often the assumption is yes, meaning that however messy our set of rewards are, it is still perfectly reasonable to assume that they could be mapped out as a utility function, without this glossing over the complexity of the interaction of that utility function with itself.
 
@@ -19,7 +19,7 @@ The key point to make here is that the reward-model as a whole — which is what
 
 This leads us to the problem of utility functions nested inside of utility functions. Unless we would like to restrict our notion of an agent to the one utility function which controls for the agent’s output in a given moment, it is equally as sensible to state that the human brain is comprised of multiple utility functions, i.e. of multiple agents. Again, this makes no difference to what is going on on the ground, but it is a handy distinction to make if you do not want to preemptively rule out the intuition that the world-model may have agential proprieties.
 
-2. Learning algorithms as agents
+2\. Learning algorithms as agents
 
 A view consistent with most of the literature in machine learning is that the world-model is either built by or identical with a set of learning algorithms. Increasingly the view is that the set of learning algorithms taken to be necessary for general intelligence are simple and uniform, and that much of the gap between mammals or current ML agents when compared to general intelligence is accountable to scale.
 
@@ -27,7 +27,7 @@ The world-model under this view is instantiated as empty, except for these simpl
 
 But a learning algorithm without a supervising signal doesn’t just do nothing. It still takes in inputs and transforms them into outputs based on existing weights and hyper-parameters. There is nothing stopping these outputs from being motor outputs, which then of course changes the inputs. While it is correct to say that at almost all low levels of intelligence (e.g. structure in the world-model), the motor outputs largely look meaningless, it is not immediately clear why they could become less meaningless as complexity scales. This is precisely the argument that I would like to make: as you approach general intelligence, or at least whatever it is humans typically achieve within a few years of life, you get coherent, long-term plans that stem almost solely from whatever it is that allows the world-model itself to learn.
 
-3. Examples of agent outputs that seem attributable to the world-model
+3\. Examples of agent outputs that seem attributable to the world-model
 
 Infants will regularly turn their hands over as they study them visually, and will do the same when they first grasp objects. It is obvious that their visual cortex, and more generally their neocortex, is doing this to build a better model of their hand and the particular object. I cannot think of a reward that we would typically assign to the reward-model that this repeated action can be attributable to: the hypothesis here is that this action you see across almost all infants is being performed entirely by the general learning algorithm that is responsible for learning a spatial model of the body and world.
 
@@ -41,12 +41,12 @@ An obvious objection, then, is why the predictability of something like the futu
 
 Consider instead the autistic mind that hopelessly gets lost down rabbit-holes of learning at the expense of almost all other rewards, e.g. going for hours if not days at a time with minimal food, sleep, social interaction, etc. I would argue here that the autistic mind is an edge case of the human phenotype, which gets the learning algorithms wrong in a way that would often lead to demise in the ancestral environment. Specifically, the learning algorithms of the world-model are too strong, and are not informed sufficiently by the supervisory signal of the reward-model, leading to a structure of world-model poor relative to selective pressures. It is not that the usual reward-model was not there to begin with, rather it is that it is being dominated by the learning algorithm. If it seems like the usual reward-model is not there, it is because it is merely undeveloped due to the overwhelming focus on what the world-model is after.
 
-4. Characterising the utility function of the world-model
+4\. Characterising the utility function of the world-model
 
 What characterises a learning algorithm is quite unsurprisingly learning. For the sake of this argument, I will take it that to learn is essentially SGD, or more broadly the optimisation of predictability for some target function. At low-levels of scale, a learning algorithm cannot elicit meaningful or complex behaviour unless there is some supervisory signal, i.e. a target function, which points to the part of the world to predict for. But as the world-model is scaled instrumentally for the reasons of optimising for the reward-model, is will continue to have opportunities to optimise itself further when the reward-model largely goes silent. Because it is already in the habit of making long-term, coherent plans for the pursuit of simple rewards, it has the tools necessary to form these same plans for the sake of the reward the learning algorithm is looking for. In this sense, the world-model can be considered a kind of mesa-optimiser for the base-optimiser which is the reward-model. But rather than the usual characterisation of the mesa-optimiser merely being an aligned version of the reward-model, what makes it unaligned is due to something that it was instated with, e.g. those things required to make a learning algorithm function at all.
 
 Plenty, if not the supermajority, of historical and contemporary philosophy can be attributable to an attempt to maximise for the instantiated reward-function, i.e. to minimise for suffering. However, I do think it is plausible that some amount of philosophical reflection, especially meta-ethical reflection, is stemming from the reward the world-model is looking for, that being the better situating of itself in the world, or the minimisation of uncertainty of future observations.
 
-5. Conclusion
+5\. Conclusion
 
-It is for these reasons that I think a case can be made for the world-model of the human brain being an agent in of itself, one that is ready to be at odds with other rewards present in the brain. The key claim here is a rejection of Hume’s: the intellect, if separated from the passions, is not totally catatonic. While it is the case that for almost all intelligences other than humans, an agent without a reward-model would be rendered catatonic, the human mind on the other hand has enough structure to at least act a little coherently. Whether or not any ethical actions would result is a far harder question, and will depend on which meta-ethical position you take up. However, I hope that it is clear that plenty of human behaviour seems non-ethical in the Humean, and is the direct result of a world-model trying to mindlessly build a better model of its surroundings. 
+It is for these reasons that I think a case can be made for the world-model of the human brain being an agent in of itself, one that is ready to be at odds with other rewards present in the brain. The key claim here is a rejection of Hume’s: the intellect, if separated from the passions, is not totally catatonic. While it is the case that for almost all intelligences other than humans, an agent without a reward-model would be rendered catatonic, the human mind on the other hand has enough structure to at least act a little coherently. Whether or not any ethical actions would result is a far harder question, and will depend on which meta-ethical position you take up. However, I hope that it is clear that plenty of human behaviour seems non-ethical in the Humean, and is the direct result of a world-model trying to mindlessly build a better model of its surroundings.
