@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The world-model as an agent"
+title: "The world model creates a model of the base-reward”
 ---
 
 _Context: many if not most contemporary theories of intelligence have their analog of ‘world-model’, ‘reward-model’, and ‘base-reward’, and they relate fairly similarly to what I propose. The explanation I provide is a part of an attempt to more cleanly define the three at an intuitive level, where the intuitions are arising from working backwards from human examples. Furthermore, the sort of agent foundations that follows from the orthogonality thesis typically gloss over or straight up ignore the potential necessity of a reward-model for general intelligence to work (given the kind of compute humans will reasonably have access to before AGI can begin recursive self-improvement)._
