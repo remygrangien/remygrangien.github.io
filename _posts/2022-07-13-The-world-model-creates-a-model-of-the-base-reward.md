@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The world model creates a model of the base-reward"
+title: "The world-model creates a model of the base-reward"
 ---
 
 _Context: many if not most contemporary theories of intelligence have their analog of ‘world-model’, ‘reward-model’, and ‘base-reward’, and they relate fairly similarly to what I propose. The explanation I provide is a part of an attempt to more cleanly define the three at an intuitive level, where the intuitions are arising from working backwards from human examples. Furthermore, the sort of agent foundations that follows from the orthogonality thesis typically gloss over or straight up ignore the potential necessity of a reward-model for general intelligence to work (given the kind of compute humans will reasonably have access to before AGI can begin recursive self-improvement)._
@@ -23,7 +23,7 @@ By having this more readily available reward-model to plan around, the world-mod
 
 Further simple evidence of the above is that we have a sophisticated reward-model of other humans around us (both generally, but also specific to individuals we know well), and obviously we don’t have direct access to other people’s base-reward. 
 
-### Potential take-aways and validity
+### Potential takeaways and validity
 
 An agent’s need to think counter-factually about the base-reward would seem to be necessary if the base-reward was sufficiently complex, such that there was no immediately obvious way to maximise reward over long periods of time. The world-model would need to train up a representation of the actual shape of the function of the base-reward, so that it could plan ahead to how the base-reward would be likely to respond to a particular set of inputs in future. 
 
